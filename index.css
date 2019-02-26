@@ -2,16 +2,18 @@ body{
 	background-color: #016f98;
 	color: #ccccff;
 }
-table{	width: 100%;
+div {align-content: center;
 }
-h3{	color: #ccccff;
+h3{	color: #ccccff; text-align: center;
 }
 .Monogram {
 	width: 250px;
+	height: 50%;
 }
 .Mareframe{
 	width: 350px;
 	height: 250px;
+	
 }
 .KEMPROS{
 	width:400px;
