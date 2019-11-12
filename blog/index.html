@@ -6,12 +6,14 @@ title: The Shadow Tomes
   <div class="leftcolumn">
     <div class="card">	
 	<h1>{{ page.title }}</h1>
-	    <div class="img" href="Mareframe.png" style="height:200px;">Image</div>
-	  </div>
-	</div>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
+	<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+	  </div>
+	</div>
+	    {% endfor %}
 	</ul>
