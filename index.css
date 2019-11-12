@@ -1,21 +1,13 @@
 body{
-	background-color: #016f98;
+	background-color: #3366ff;
 	color: #ccccff;
 }
 div {align-content: center;
 }
 h3{	color: #ccccff; text-align: center;
 }
-.Monogram {
-	width: 250px;
-	height: 50%;
-}
+
 .Mareframe{
 	width: 350px;
-	height: 250px;
-	
-}
-.KEMPROS{
-	width:400px;
 	height: 250px;
 }
