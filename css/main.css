@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: #3366ff;
 }
 
 /* Header/Blog Title */
@@ -26,12 +26,6 @@ body {
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
