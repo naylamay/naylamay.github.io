@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #9999ff;
+  background: #C0C0C0;
 }
 
 /* Header/Blog Title */
@@ -29,7 +29,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #9999ff;
   padding: 20px;
   margin-top: 20px;
 }
