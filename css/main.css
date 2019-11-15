@@ -34,6 +34,13 @@ body {
   margin-top: 20px;
 }
 
+.postcard {
+  background-color: #f6ddcc;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
