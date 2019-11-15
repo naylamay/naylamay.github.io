@@ -12,6 +12,17 @@ body {
   background: white;
 }
 
+/* post title*/
+.title {
+  text-align: center;
+}
+
+/* In-game date*/
+.date {
+  text-align: left;
+}
+
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
@@ -26,6 +37,13 @@ body {
   padding-left: 20px;
 }
 
+/*flexible container for p */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 /* Add a card effect for articles */
 .card {
@@ -34,13 +52,14 @@ body {
   margin-top: 20px;
 }
 
+/* Card effect for posts*/
 .postcard {
   background-color: #f6ddcc;
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  
+  text-align: left;
+  column-width: 200px;
 }
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
