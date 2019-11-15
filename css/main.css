@@ -42,6 +42,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 800px;
+  
 }
 
 
@@ -56,7 +58,6 @@ body {
 .postcard {
   background-color: #f6ddcc;
   text-align: left;
-  column-width: 200px;
 }
 
 
